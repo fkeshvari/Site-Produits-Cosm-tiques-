@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Beauty shop</title>
+
+
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="  " src="javascript/js.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="styles/hommes.css">
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+  <script type="javascript" src="javascript/js.js"></script>
+
+
+
+
+</head>
+
+<header>
+<!-- <nav class="navbar navbar-inverse">
+<ul class="nav nav-bar">
+<li class="active"><a href="#">Acceuil</a></li>
+<li><a href="#">Homme</a></li>
+<li><a href="#">Femme</a></li>
+<li><a href="#">Inscription</a></li>
+</ul>
+</nav> -->
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"><div id="lelogo"><img src="images/lelogo.png" width="65px" height="65px"></div> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="menu" class="nav navbar-nav">
+        <li id="accueil">
+          <a class="nav-link dropdown-toggle" href="index.html"><!--  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+            Accueil
+          </a>
+<!--         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Qui sommes nous?</a><br><br>
+          <a class="dropdown-item" href="#new">Les nouveautés</a><br><br>
+          <a class="dropdown-item" href="#trouver1">Comment nous trouver?</a> -->
+        </li>
+        <li id="homme"><a class="nav-link dropdown-toggle" href="hommes.html"><!--  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+          HOMMES
+        </a>
+<!--         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Cheveux</a><br><br>
+          <a class="dropdown-item" href="#">Barbe</a><br><br>
+          <a class="dropdown-item" href="#">Soin du corps</a>
+        </li> -->
+        <li id="femme">
+          <a class="nav-link dropdown-toggle" href="femmes.html"><!--  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+            Femmes
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Cheveux</a><br><br>
+            <a class="dropdown-item" href="#">Soin visage</a><br><br>
+            <a class="dropdown-item" href="#">Soin corps</a>
+          </li>
+          <li id="faq"><a <a class="nav-link dropdown-toggle" href="faq.html"><!--  id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+            FAQ
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Forum</a><br><br>
+            <a class="dropdown-item" href="#">Poser une question</a><br><br>
+            <a class="dropdown-item" href="#">Questions fréquentes</a><br>
+
+
+          </li> 
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="inscription.html"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+          <li><a href="connexion.html"><span class="glyphicon glyphicon-log-in"></span>Se connecter</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Mon Panier</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div id="produits">
+ <center><p class="justify-content-center">
+  <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Visage</a>
+  <button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Barbe</button>
+  <button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Soin pour le corps</button>
+  <button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3">Tous les produits </button></center>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        <div class="container" id="type-produit">
+          <h2 class="titre">Produits pour le visage </h2>
+        </div> <!-- fin visage -->
+        <div class="container">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; margin:auto;">
+              <center><img class="card-img-top" src="images/beautyhommes1.png" alt="Card image cap"></center>
+              <div class="card-body">
+                <p class="card-text"> <div id="description">Tous les bienfaits de  <strong>Face Soap Savon Visage </strong>dans une formule liquide pour nettoyer en profondeur et prépare la peau à un rasage doux.
+                  <br>
+                   <strong id="prix">28,5 €</strong>
+
+</div> <input type="submit" value="Ajouter au panier" id="ajouter"></p>
+              </div> <!-- fin carbody -->
+            </div> <!-- fin card -->
+          </div> <!-- fin colmd -->
+          <div class="col-md-4">
+            <div class="card" id="toto" style="width: 18rem;margin: 0 auto;">
+              <center><img class="card-img-top" src="images/beautyhommes2.png" alt="Card image cap"></center>
+              <div class="card-body">
+                <p class="card-text"> <div id="description">Le soin hydratant <strong>TakeYours Homme</strong> qui redéfinit visiblement les contours du visage.Une double technologie inédite pour des Hommes.
+                  <br>
+                  <strong id="prix">70€</strong>
+</div>      <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+              </div> <!-- fin card body -->
+            </div> <!-- fin card  -->
+          </div> <!-- fin colmd4 -->
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem; margin: auto;">
+              <center><img class="card-img-top" src="images/beautyhommes3.png" alt="Card image cap"></center>
+              <div class="card-body">
+                <p class="card-text"> <div id="description">Le soin tonifiant <strong>LACRINS </strong> Boostez l’énergie de votre peau.Freinez les effets du temps! Repoussez les premiers visibles 
+                  <br>
+                  <strong id="prix">40€</strong>       <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+              </div> <!-- fin carbody -->
+            </div>  <!-- fin card  -->
+          </div> <!-- fin colmd4 -->
+        </div><!-- fin container --> <!-- AJOUTEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+      </div> <!-- fin card card body AJOUTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+    </div> <!-- fin col -->
+  </div> <!-- fin collaspe -->
+
+         
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="container" id="type-produit1">
+                <h2 class="titre">Produits pour barbe</h2>
+                <div class="card card-body">
+                 <div class="col-md-4">
+                  <div class="card" style="width: 18rem; margin: auto;">
+                    <center><img class="card-img-top" src="images/beautyhommes4.png" alt="Card image cap"></center>
+                    <div class="card-body">
+                      <p class="card-text"> <strong>KARULA</strong> pour beaucoup de douceur après la brutalité du rasage grâce à ses extraits de karité et de marula.  
+                        <br>
+                        <strong id="prix">38,50€</strong>
+                           <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+                    </div> <!-- fin cardbody -->
+                  </div> <!-- fin card -->
+                </div> <!-- fin colmd4 -->
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;margin : auto;">
+                    <center><img class="card-img-top" src="images/beautyhommes5.png" alt="Card image cap"></center>
+                    <div class="card-body">
+                      <p class="card-text"> Avec <strong>CLINIQUE</strong> Pour se raser mieux, plus vite, plus confortablement. Encombrement minimum, efficacité maximum. 
+                        <strong id="prix">34,50€</strong>
+                           <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+                    </div> <!-- fin cardbody -->
+                  </div> <!-- findcard -->
+                </div> <!-- fincolmd4 -->
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;margin : auto;">
+                    <center><img class="card-img-top" src="images/beautyhommes6.png" alt="Card image cap"></center>
+                    <div class="card-body">
+                      <p class="card-text"> <strong>CLARINXMEN</strong>Pour se raser de très près en un seul passage, sans risque de coupures ni sensation d'échauffement.
+                        <strong id="prix">20,50€</strong>
+       <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+                    </div> <!-- findcarbody -->
+                  </div> <!-- find card -->
+                </div> <!-- find colmd -->
+              </div> <!-- fincardcardbody -->
+            </div> <!-- fincontainer -->
+          </div> <!-- fin col --> 
+        </div> <!-- fin collapse -->
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="container" id="type-produit1">
+                <h2 class="titre">Soin pour le corps</h2>
+                <div class="card card-body">
+                 <div class="col-md-4">
+                  <div class="card" style="width: 18rem;margin : auto;">
+                    <center><img class="card-img-top" src="images/beautyhommes7.png" alt="Card image cap"></center>
+                    <div class="card-body">
+                      <p class="card-text"> <strong>CLINIQUE</strong> laisse une sensation de fraîcheur et neutralise les mauvaises odeurs. Précis et efficace.
+                        <strong id="prix">25€</strong>
+                            <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+                    </div> <!-- fincarbody -->
+                  </div> <!-- findcard -->
+                </div> <!-- fincolmd4 -->
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;margin : auto;">
+                    <center><img class="card-img-top" src="images/beautyhommes8.png" alt="Card image cap"></center>
+                    <div class="card-body">
+                      <p class="card-text"> Optez <strong> LANCOME</strong>Pour laver corps et cheveux avec un seul produit, se dynamiser en un seul geste.    
+                        <strong id="prix">28,50€</strong>
+                         <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+                    </div> <!-- fincarbody -->
+                  </div><!-- fin car -->
+                </div> <!-- fincolmd -->
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem;margin : auto;">
+                    <center><img class="card-img-top" src="images/corps3.png" alt="Card image cap"></center>
+                    <div class="card-body">
+
+                      <p class="card-text"> Un soin plus fort pour les mains des hommes. Pour réparer et protéger les mains abîmées, desséchées, irritées
+                        <strong id="prix">20,50€</strong>
+                                <input type="submit" value="Ajouter au panier" id="ajouter"</p>
+                    </div> <!-- fin cardbody -->
+                  </div> <!-- fin card -->
+                </div> <!-- fincolmd4 -->
+              </div> <!-- fincardcardbody -->
+            </div> <!-- fincontainer -->
+          </div> <!-- finmulticollapse -->
+        </div> <!-- fincol -->
+      </div> <!-- fin row -->
+<!-- A la sauvage -->
+<!--  </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+<!-- /A la sauvage -->
+   
+ </body>
+
+ </html>

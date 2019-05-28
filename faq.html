@@ -1,0 +1,305 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>faq</title>
+</head>
+ <title>Ycare</title>
+       <script
+  src="http://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+<!-- <link rel="stylesheet" type="text/css" href="css/accueil.css"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" type="text/css" href="styles/faq.css">
+<body>
+<header>
+<!-- <nav class="navbar navbar-inverse">
+<ul class="nav nav-bar">
+<li class="active"><a href="#">Acceuil</a></li>
+<li><a href="#">Homme</a></li>
+<li><a href="#">Femme</a></li>
+<li><a href="#">Inscription</a></li>
+</ul>
+</nav> -->
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"> <div id="lelogo"><img src="images/lelogo.png" width="65px" height="65px"></div></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="menu" class="nav navbar-nav">
+        <li id="accueil">
+        <a class="nav-link dropdown-toggle" href="index.html">
+          Accueil
+        </a>
+       <!--  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Qui sommes nous?</a><br><br>
+          <a class="dropdown-item" href="#">Les nouveautés</a><br><br>
+          <a class="dropdown-item" href="#">Comment nous trouver?</a> -->
+        </li>
+        <li id="homme"><a class="nav-link dropdown-toggle" href="hommes.html">
+          Hommes
+        </a>
+  
+        <li id="femme">
+        <a class="nav-link dropdown-toggle" href="femmes.html">
+          Femmes
+        </a>
+     
+        </li>
+        <li id="faq"><a <a class="nav-link dropdown-toggle" href="#">
+          FAQ
+        </a>
+     <!--    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Forum</a><br><br>
+          <a class="dropdown-item" href="#">Poser une question</a><br><br>
+          <a class="dropdown-item" href="#">Questions fréquentes</a><br> -->
+
+
+        </li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="inscription.html"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+        <li><a href="connexion.html"><span class="glyphicon glyphicon-log-in"></span>Se connecter</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Mon Panier</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div class="container">
+    <br />
+    <br />
+    <br />
+
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        Notre FAQ contient les  <strong> questions les plus soulevées </strong> par nos clients. Si aucune d'entre elles ne correspond à votre problème, contactez-nous.
+    </div>
+
+    <br />
+
+    <div class="panel-group" id="accordion">
+        <div class="faqHeader">Questions générales</div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">A quoi sert notre FAQ</a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    Elle sert à créer un lien entre la boutique et les clients. Chaque question a une réponse spécifique qui permet de combler toute attente.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">Quelle est la date de création du site?</a>
+                </h4>
+            </div>
+            <div id="collapseEleven" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Le site a été créé  <strong>31 Janvier 2018.</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Comment vous-est venu l’idée de créer un site de beauté ?</a>
+                </h4>
+            </div>
+            <div id="collapseTen" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Nous sommes 3 étudiantes en école de commerce, nous sommes passionnée par les cosmétiques c’est pour cela que nous avons voulu créé un projet dont le site internet.
+                </div>
+            </div>
+        </div>
+
+        <div class="faqHeader">Questions sur la vente</div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Les délais sont-ils respectés ? </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Oui les délais sont respectés ils sont de 3 à 5 jours. Mais ils peut y avoir des petits retard.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Est-ce que les produits sont réellement cruelty free ? </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                   Oui tous nos produits sont cruelty free, c’est de bon produits non tester sur les animaux.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Y’a-t-il que des produits cruelty free ? </a>
+                </h4>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse">
+                <div class="panel-body">
+                   Le site vend des produits naturel et  cruelty free, il a de la diversité c’est ce qui fait de notre  site un site unique.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">En accumulant des points de fidélité combien de bon d’achat peut-on avoir ? </a>
+                </h4>
+            </div>
+            <div id="collapseSix" class="panel-collapse collapse">
+                <div class="panel-body">
+            Le but du site est d’accumuler des beautycoins (points de fidélité) ce qui permettra de vous donner des offres exceptionnelles. A la suite de vos achats vous cumulerez des points et pourrez choisir des miniatures suivant vos achats.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Quel est le produit le plus vendu ?</a>
+                </h4>
+            </div>
+            <div id="collapseEight" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Sur notre site le produit le plus vendu est l’anticerne de chez nars. 
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Quel produit féminin nous conseillez-vous ?</a>
+                </h4>
+            </div>
+            <div id="collapseNine" class="panel-collapse collapse">
+                <div class="panel-body">
+                   Nous vous conseillons l’anticerne nars qui est un de nos produits fard, ainsi que le coffret soins du corps de clinique. 
+                </div>
+            </div>
+        </div>
+
+        <div class="faqHeader">Questions sur les achats </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Est-ce que tout le monde peut acheter sur votre site ?</a>
+                </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse">
+                <div class="panel-body">
+                   En effet tout le monde peut acheter sur notre site qu’ils soient homme ou femme.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Quelle est la tranche d’âge de vos clients ?</a>
+                </h4>
+            </div>
+            <div id="collapseSeven" class="panel-collapse collapse">
+                <div class="panel-body">
+                    La plus part de nos clients sont âgés entre 25 et 35 ans. 
+                </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "➤"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+</style>
+
+<br>
+<br>
+<br>
+<br>
+
+<div>
+<footer>
+              <div class="col-md-12">
+              <div class="col-md-5" id="copy">
+                    <h3>Copyright &copy; Ycare.co</h3>
+              </div> 
+
+
+              <div id="social" class="col-md-7">
+                    <ul>
+                           <li><a href="https://www.instagram.com/ycareparis/" target="blank">Instagram</a></li>
+                           <li><a href="https://www.facebook.com/Ycare-ynov-530858813956578/" target="blank">Facebook</a></li>
+                           <li><a href="https://twitter.com/YCAREPARIS" target="blank">twitter</a></li>
+                           <li><a href="https://photos.google.com/u/1/album/AF1QipMd0zH3lNWlU3veI2VEpeJeL5g8UiFYk912ZUT_" target="blank">Google+</a></li>
+                           <li><a href="https://www.youtube.com/channel/UCIqCkAG3VrnCvHbnEPYbNSw?view_as=subscriber" target="blank">Youtube</a></li>
+                           <li><a href="https://www.pinterest.com/kkia1996/" target="blank">Pinterest</a></li>
+                    </ul>
+                    
+              </div> 
+              </div>
+       
+                    
+
+              
+</footer>
+</div>
+</body>
+
+
+</html>

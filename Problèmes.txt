@@ -1,0 +1,8 @@
+Problèmes :
+Acceuil : 
+-Le caroussel au footer
+-Faire marcher les liens de la navbar HOMMES- FEMMES - FAQ
+
+Hommes et femmes  :
+-Faire en sorte que le panier se remplisse lorsquon ajoute des articles 
+footer pour la page HOMMES

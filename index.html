@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Beauty shop</title>
+
+
+<script
+  src="http://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script type="  " src="javascript/js.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
+<script type="javascript" src="javascript/js.js"></script>
+
+       
+       
+
+</head>
+
+<header>
+<!-- <nav class="navbar navbar-inverse">
+<ul class="nav nav-bar">
+<li class="active"><a href="#">Acceuil</a></li>
+<li><a href="#">Homme</a></li>
+<li><a href="#">Femme</a></li>
+<li><a href="#">Inscription</a></li>
+</ul>
+</nav> -->
+<nav class="navbar navbar-default" id="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"> <div id="lelogo"><img src="images/lelogo.png" width="65px" height="65px"></div> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul id="menu" class="nav navbar-nav">
+        <li id="accueil">
+        <a class="nav-link dropdown-toggle" href="#">
+          ACCUEIL
+        </a>
+       <!--  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Qui sommes nous?</a><br><br>
+          <a class="dropdown-item" href="#">Les nouveautés</a><br><br>
+          <a class="dropdown-item" href="#">Comment nous trouver?</a> -->
+        </li>
+        <li id="homme"><a class="nav-link dropdown-toggle" href="hommes.html">
+          Hommes
+        </a>
+  
+        <li id="femme">
+        <a class="nav-link dropdown-toggle" href="femmes.html">
+          Femmes
+        </a>
+     
+        </li>
+        <li id="faq"><a <a class="nav-link dropdown-toggle" href="faq.html">
+          FAQ
+        </a>
+       <!--  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Forum</a><br><br>
+          <a class="dropdown-item" href="#">Poser une question</a><br><br>
+          <a class="dropdown-item" href="#">Questions fréquentes</a><br>
+ -->
+
+        </li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="inscription.html"><span class="glyphicon glyphicon-user"></span> S'inscrire</a></li>
+        <li><a href="connexion.html"><span class="glyphicon glyphicon-log-in"></span>Se connecter</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Mon Panier</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<div id="exemple-carrousel" class="carousel slide" data-ride="carousel"> 
+ 
+  <!-- <ol class="carousel-indicators"> 
+    <li data-target="#exemple-carrousel" data-slide-to="0" 
+class="active"></li> 
+    <li data-target="#exemple-carrousel" data-slide-to="1"></li> 
+  </ol>  -->
+ 
+
+  <div class="carousel-inner"> 
+    <div class="item active"> 
+      <div id="brahim">
+      <img src="images/slogan1.png" alt="..."> </div>
+      <div class="carousel-caption"> 
+    
+      </div> 
+    </div> 
+    <div class="item">
+    <div id="brahim">
+      <img src="images/slogan21.png" alt="..."> </div> 
+      <div class="carousel-caption"> 
+
+    </div> 
+  </div>
+ 
+ 
+  <a class="left carousel-control" href="#exemple-carrousel" 
+data-slide="prev"> 
+    <span class="glyphicon glyphicon-chevron-left"></span> 
+  </a> 
+  <a class="right carousel-control" href="#exemple-carrousel" 
+data-slide="next"> 
+    <span class="glyphicon glyphicon-chevron-right"></span> 
+  </a> 
+</div>
+
+
+
+
+<body> 
+<div id="DivClignotante" style="visibility:visible;">  <u>PROFITEZ    DES    YSOLDES</u></div>
+<p><br />
+<script type="text/javascript"> 
+var clignotement = function(){ 
+   if (document.getElementById('DivClignotante').style.visibility=='visible'){ 
+      document.getElementById('DivClignotante').style.visibility='hidden'; 
+   } 
+   else{ 
+   document.getElementById('DivClignotante').style.visibility='visible'; 
+   } 
+}; 
+// mise en place de l appel de la fonction toutes les 0.8 secondes 
+// Pour arrêter le clignotement : clearInterval(periode); 
+periode = setInterval(clignotement, 800); 
+</script></p>
+
+<div class="container"> 
+  <div class="row">
+    <div class="col-md-3" id="produits"> 
+      <marquee  scrollamount="10" direction="up" onmouseover="this.stop()"onmouseout="this.start()" ><a href="femmes.html"><img src="images/beautyfemmes1.png" width="270px" height="270px" /> <br>  <figcaption><div id="soldes">  Soldés -30%</div></figcaption> <br> <img src="images/téléchargement.png" width="200px" height="200px" /><figcaption><div id="soldes"> Soldés -10%</div><br> <br><img src="images/beautyfemmes2.png" width="200px" height="200px" /></a><figcaption><div id="soldes"> Soldés -50%</div></marquee>
+    </div>
+
+    <div class="col-md-3" id="produits"> 
+      <marquee  scrollamount="10" direction="up" onmouseover="this.stop()"onmouseout="this.start()" ><a href="hommes.html"><img src="images/beautyhommes1.png" width="250px" height="250px" /><figcaption><div id="soldes"> Soldés -70%</div> <br> <br>  <br>   <img src="images/beautyhommes3.png" width="200px" height="200px" /><figcaption><div id="soldes"> Soldés -20%</div><br> <img src="images/beautyhommes2.png" width="200px" height="200px" /></a><figcaption><div id="soldes">Soldés -40%</div></marquee>
+    </div>
+
+    <div class="col-md-3" id="produits"> 
+      <marquee  scrollamount="10" direction="up" onmouseover="this.stop()"onmouseout="this.start()" ><a href="femmes.html"><img src="images/beautyfemmes4.png" width="250px" height="250px" /><figcaption><div id="soldes"> Soldés -70%</div> <br> <br>  <br>   <img src="images/visage2.png" width="200px" height="200px" /><figcaption><div id="soldes"> Soldés -20%</div><br> <img src="images/beautyfemmes6.png" width="200px" height="200px" /></a><figcaption><div id="soldes">Soldés -40%</div></marquee>
+    </div>
+    <div class="col-md-3" id="produits"> 
+      <marquee  scrollamount="10" direction="up" onmouseover="this.stop()"onmouseout="this.start()" ><a href="femmes.html"><img src="images/beautyhommes4.png" width="250px" height="250px" /><figcaption><div id="soldes"> Soldés -70%</div> <br> <br>  <br>   <img src="images/beautyhommes5.png" width="200px" height="200px" /><figcaption><div id="soldes"> Soldés -20%</div><br> <img src="images/beautyhommes6.png" width="200px" height="200px" /></a><figcaption><div id="soldes">Soldés -40%</div></marquee>
+    </div>
+
+
+
+   </div>
+</div>
+<div id="map">
+  <div class="container-fluid" id="trouver1">
+    <div class= "row">
+      <div class="container">
+          <div class="col-md-6">
+              <h1 id="trouver1"> Ou nous trouvons nous ?</h1><br>
+              <p id="infos"> <img class="icon" src="images/position.png">  Adresse: 12 rue Anatole France, 92000 Nanterre <br><br>
+              <img class="icon" src="images/appel.png">  Téléphone:06.26.08.37.45 <br><br>
+              <img class="icon" src="images/mail.png">  e-mail:ycareparis@outlook.com</p></div>
+      <div class="col-md-6">
+          <h1 id="siege"> Siège social Ycare</h1> <br> 
+         <div id="googlemap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.7197201225745!2d2.2057948158064233!3d48.90167847929181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6646181e966eb%3A0x15b5edbaca9dc11!2s12+Rue+Anatole+France%2C+92000+Nanterre!5e0!3m2!1sfr!2sfr!4v1517581263305" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+              <div class="col-md-12">
+              <div class="col-md-5" id="copy">
+                    <h3>Copyright &copy; Ycare.co</h3>
+              </div> 
+
+
+              <div id="social" class="col-md-7">
+                    <ul>
+                           <li><a href="https://www.instagram.com/ycareparis/" target="blank">Instagram</a></li>
+                           <li><a href="https://www.facebook.com/Ycare-ynov-530858813956578/" target="blank">Facebook</a></li>
+                           <li><a href="https://twitter.com/YCAREPARIS" target="blank">twitter</a></li>
+                           <li><a href="https://photos.google.com/u/1/album/AF1QipMd0zH3lNWlU3veI2VEpeJeL5g8UiFYk912ZUT_" target="blank">Google+</a></li>
+                           <li><a href="https://www.youtube.com/channel/UCIqCkAG3VrnCvHbnEPYbNSw?view_as=subscriber" target="blank">Youtube</a></li>
+                           <li><a href="https://www.pinterest.com/kkia1996/" target="blank">Pinterest</a></li>
+                    </ul>
+                    
+              </div> 
+              </div>
+       
+                    
+
+              
+</footer>
+
+
+
+
+
+</body>
+</html>

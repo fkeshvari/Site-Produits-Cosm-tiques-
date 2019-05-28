@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+#menu{
+float: center;
+position: center;
+
+font-size: 20px;
+color: #D6BFDD;
+font-family: Arial Narrow, sans-serif;
+color: white;
+}
+#navbar{
+color: white;
+background-color: #FFE4E1;
+margin: 0px;
+}
+#accueil:hover{
+background-color: #F3E0E3;
+
+}
+#homme:hover{
+background-color: #F3E0E3;
+
+}
+#femme:hover{
+background-color: #F3E0E3;
+}
+#faq:hover{
+background-color: #F3E0E3;
+}
+
+#barre{
+margin-top: 30px;
+}
+
+#accueil{
+font-color: white;
+}
+
+.dropdown-menu{
+background-color: #F3E0E3;
+font-family: Arial Narrow, sans-serif;
+height: 120px;
+width: 70px;
+margin-top: 40px;
+text-align: center;
+color: white;
+list-style: none;
+
+}
+
+.dropdown-item{
+color: #878989;
+margin-top: 100px;
+text-decoration: none;
+}
+.dropdown-item:hover{
+	text-decoration: none;
+	color: black;
+}
+
+#homme{
+color: : #D6BFDD;
+}
+
+/*BODY*/
+.btn-primary{
+	background-color: black;
+	width: 200px;
+	height:50px;
+}
+.btn-primary:hover{
+	color: black;
+	background: white;
+}
+
+#produits{
+	background-color: #D5B6E1;
+	font-family: Arial Narrow, sans-serif;
+	font-size: 18px;
+}
+
+.titre{
+	border-bottom: 1px solid black;
+}
+/*#type-produit{
+	margin-bottom: 20px;
+}
+#type-produit1{
+	margin-bottom: 20px;
+}
+*/.content-justify-center{
+	text-align: justify;
+}
+
+.card-text{
+	margin: 20px;
+}
+.col-md-4{
+	margin-bottom: 2px solid black;
+}
+
+.card-img-top{
+	width: 150px;
+	height: 180px;
+	border:1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 30px;
+	background: white;
+}
+
+/*.card-img-top:hover{
+	width: 250px;
+	height: 300px;
+}*/
+
+.card-img-top:hover{
+	width: 150px;
+	height: 180px;
+}
+
+.card{
+	text-align: justify;
+}
